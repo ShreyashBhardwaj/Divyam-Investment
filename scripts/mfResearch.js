@@ -1,0 +1,219 @@
+const _0x379b0c = _0x438a;
+(function (_0x95e4d1, _0x316020) {
+  const _0x456d66 = _0x438a,
+    _0x3d6d31 = _0x95e4d1();
+  while (!![]) {
+    try {
+      const _0x57c6c3 =
+        -parseInt(_0x456d66(0x172)) / 0x1 +
+        (parseInt(_0x456d66(0x18f)) / 0x2) *
+          (parseInt(_0x456d66(0x167)) / 0x3) +
+        (parseInt(_0x456d66(0x18c)) / 0x4) *
+          (parseInt(_0x456d66(0x198)) / 0x5) +
+        -parseInt(_0x456d66(0x197)) / 0x6 +
+        (parseInt(_0x456d66(0x19b)) / 0x7) *
+          (parseInt(_0x456d66(0x199)) / 0x8) +
+        (-parseInt(_0x456d66(0x174)) / 0x9) *
+          (-parseInt(_0x456d66(0x17d)) / 0xa) +
+        (parseInt(_0x456d66(0x17f)) / 0xb) *
+          (-parseInt(_0x456d66(0x17a)) / 0xc);
+      if (_0x57c6c3 === _0x316020) break;
+      else _0x3d6d31["push"](_0x3d6d31["shift"]());
+    } catch (_0x5eea03) {
+      _0x3d6d31["push"](_0x3d6d31["shift"]());
+    }
+  }
+})(_0xd1a1, 0x2235b);
+let outputTblDiv = document[_0x379b0c(0x171)](_0x379b0c(0x18b)),
+  researchBtn = document[_0x379b0c(0x171)](_0x379b0c(0x180)),
+  viewBtn = document[_0x379b0c(0x171)](_0x379b0c(0x196)),
+  researchSelectBtnPanel = document[_0x379b0c(0x171)]("researchSelectBtnPanel"),
+  totalPageItems = [],
+  startIdx = 0x0,
+  endIdx = 0x0;
+function _0xd1a1() {
+  const _0x562c22 = [
+    "<blockquote\x20class=\x22text-xl\x20text-center\x20italic\x20font-semibold\x20text-gray-900\x20dark:text-white\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Oops\x20!\x20We\x20could\x20not\x20find\x20any\x20data\x20for\x20this\x20criteria\x20!</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</blockquote>",
+    "inceptionReturn",
+    "http://localhost:8084/api/navCalculator/getSchemeReturnsView",
+    "length",
+    "allBtn",
+    "All",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>",
+    "display:\x20flex;justify-content:\x20center;align-items:\x20center;width:\x20100%;text-align:\x20center;",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22font-bold\x20text-center\x20text-gray-900\x20\x20px-6\x20py-4\x20",
+    "getElementById",
+    "80224cLZcCC",
+    "Open\x20Ended\x20Schemes\x20(\x20Equity\x20Scheme\x20-\x20Mid\x20Cap\x20Fund\x20)",
+    "27MMvaFL",
+    "midCap",
+    "style",
+    "threeYearReturn",
+    "Open\x20Ended\x20Schemes\x20(\x20Equity\x20Scheme\x20-\x20Small\x20Cap\x20Fund\x20)",
+    "<div\x20id=\x22dataTable\x22\x20class=\x22relative\x20overflow-x-auto\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<table\x20id=\x22firstTbl\x22\x20class=\x22w-full\x20text-sm\x20text-left\x20rtl:text-right\x20text-gray-500\x20dark:text-gray-400\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead\x20class=\x22text-xs\x20text-gray-700\x20uppercase\x20bg-red-300\x20dark:bg-gray-700\x20dark:text-gray-400\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22col\x22\x20class=\x22text-center\x20text-gray-900\x20px-6\x20py-3\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Scheme\x20Name\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22col\x22\x20class=\x22text-center\x20text-gray-900\x20px-6\x20py-3\x20",
+    "1692072OxGIjZ",
+    "bg-red-300",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22font-bold\x20text-center\x20text-gray-900\x20\x20px-6\x20py-4\x20",
+    "304690BZNPwE",
+    "schemeList",
+    "11VxnrxE",
+    "researchbtn",
+    "fiveYearReturn",
+    "json",
+    "smallCap",
+    "log",
+    "schemeName",
+    "margin:\x200.25%\x205%;",
+    "innerHTML",
+    "Open\x20Ended\x20Schemes\x20(\x20Equity\x20Scheme\x20-\x20Large\x20Cap\x20Fund\x20)",
+    "oneYearReturn",
+    "Inception",
+    "outputTbl",
+    "12pbvPAM",
+    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "stringify",
+    "127882XpOmZU",
+    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x201\x20Year\x20(%)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22col\x22\x20class=\x22text-center\x20text-gray-900\x20px-6\x20py-3\x20",
+    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Inception\x20(%)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead><tbody>",
+    "addEventListener",
+    "load",
+    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2010\x20Years\x20(%)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22col\x22\x20class=\x22text-center\x20text-gray-900\x20px-6\x20py-3\x20",
+    "err",
+    "viewBtn",
+    "1044636wQmMkd",
+    "213735dlWdgj",
+    "8jeLlGV",
+    "<tr\x20class=\x22bg-white\x20border-b\x20dark:bg-gray-800\x20dark:border-gray-700\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22row\x22\x20class=\x22px-6\x20py-4\x20font-bold\x20text-gray-900\x20whitespace-normal\x20dark:text-white\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "1763090SHCnwG",
+    "tenYearReturn",
+    "\x20\x20<div\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20role=\x22status\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20aria-hidden=\x22true\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x22w-8\x20h-8\x20text-gray-200\x20animate-spin\x20dark:text-gray-600\x20fill-blue-600\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20viewBox=\x220\x200\x20100\x20101\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x22none\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M100\x2050.5908C100\x2078.2051\x2077.6142\x20100.591\x2050\x20100.591C22.3858\x20100.591\x200\x2078.2051\x200\x2050.5908C0\x2022.9766\x2022.3858\x200.59082\x2050\x200.59082C77.6142\x200.59082\x20100\x2022.9766\x20100\x2050.5908ZM9.08144\x2050.5908C9.08144\x2073.1895\x2027.4013\x2091.5094\x2050\x2091.5094C72.5987\x2091.5094\x2090.9186\x2073.1895\x2090.9186\x2050.5908C90.9186\x2027.9921\x2072.5987\x209.67226\x2050\x209.67226C27.4013\x209.67226\x209.08144\x2027.9921\x209.08144\x2050.5908Z\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x22currentColor\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M93.9676\x2039.0409C96.393\x2038.4038\x2097.8624\x2035.9116\x2097.0079\x2033.5539C95.2932\x2028.8227\x2092.871\x2024.3692\x2089.8167\x2020.348C85.8452\x2015.1192\x2080.8826\x2010.7238\x2075.2124\x207.41289C69.5422\x204.10194\x2063.2754\x201.94025\x2056.7698\x201.05124C51.7666\x200.367541\x2046.6976\x200.446843\x2041.7345\x201.27873C39.2613\x201.69328\x2037.813\x204.19778\x2038.4501\x206.62326C39.0873\x209.04874\x2041.5694\x2010.4717\x2044.0505\x2010.1071C47.8511\x209.54855\x2051.7191\x209.52689\x2055.5402\x2010.0491C60.8642\x2010.7766\x2065.9928\x2012.5457\x2070.6331\x2015.2552C75.2735\x2017.9648\x2079.3347\x2021.5619\x2082.5849\x2025.841C84.9175\x2028.9121\x2086.7997\x2032.2913\x2088.1811\x2035.8758C89.083\x2038.2158\x2091.5421\x2039.6781\x2093.9676\x2039.0409Z\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x22currentFill\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22sr-only\x22>Loading...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>",
+    "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22font-bold\x20text-center\x20text-gray-900\x20px-6\x20py-4\x20",
+    "click",
+    "3YBisXb",
+  ];
+  _0xd1a1 = function () {
+    return _0x562c22;
+  };
+  return _0xd1a1();
+}
+const fetchNavData = async (
+  _0x55f3d0,
+  _0x223c14,
+  _0x19bff0,
+  _0x1534cd = 0x0
+) => {
+  const _0x500cc2 = _0x379b0c;
+  let _0x6226c1 = await fetch(_0x500cc2(0x16a), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON[_0x500cc2(0x18e)]({
+      fundHouse: _0x55f3d0,
+      schemeType: _0x223c14,
+      timePeriod: _0x19bff0,
+      offset: _0x1534cd,
+    }),
+  });
+  if (_0x6226c1["ok"]) {
+    let _0x40ad0c = await _0x6226c1[_0x500cc2(0x182)]();
+    if (_0x40ad0c[_0x500cc2(0x17e)][_0x500cc2(0x16b)] > 0x0) {
+      let _0x2c2d21 =
+        _0x500cc2(0x179) +
+        (_0x19bff0 == "1" ? "bg-red-300" : "") +
+        _0x500cc2(0x190) +
+        ("3" == "3" ? _0x500cc2(0x17b) : "") +
+        "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x203\x20Years\x20(%)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22col\x22\x20class=\x22text-center\x20text-gray-900\x20px-6\x20py-3\x20" +
+        (_0x19bff0 == "5" ? _0x500cc2(0x17b) : "") +
+        "\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x205\x20Years\x20(%)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20scope=\x22col\x22\x20class=\x22text-center\x20text-gray-900\x20px-6\x20py-3\x20" +
+        (_0x19bff0 == "10" ? "bg-red-300" : "") +
+        _0x500cc2(0x194) +
+        (_0x19bff0 == "Inception" ? _0x500cc2(0x17b) : "") +
+        _0x500cc2(0x191);
+      _0x40ad0c[_0x500cc2(0x17e)]["forEach"]((_0x492d24) => {
+        const _0x3ebdd8 = _0x500cc2;
+        _0x2c2d21 +=
+          _0x3ebdd8(0x19a) +
+          _0x492d24[_0x3ebdd8(0x185)] +
+          _0x3ebdd8(0x165) +
+          (_0x19bff0 == "1" ? _0x3ebdd8(0x17b) : "") +
+          _0x3ebdd8(0x164) +
+          (_0x492d24[_0x3ebdd8(0x189)] !== null
+            ? _0x492d24[_0x3ebdd8(0x189)]
+            : "-") +
+          _0x3ebdd8(0x17c) +
+          ("3" == "3" ? "bg-red-300" : "") +
+          _0x3ebdd8(0x18d) +
+          (_0x492d24["threeYearReturn"] !== null
+            ? _0x492d24[_0x3ebdd8(0x177)]
+            : "-") +
+          _0x3ebdd8(0x17c) +
+          (_0x19bff0 == "5" ? _0x3ebdd8(0x17b) : "") +
+          _0x3ebdd8(0x18d) +
+          (_0x492d24["fiveYearReturn"] !== null
+            ? _0x492d24[_0x3ebdd8(0x181)]
+            : "-") +
+          "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20class=\x22font-bold\x20text-center\x20text-gray-900\x20\x20px-6\x20py-4\x20" +
+          (_0x19bff0 == "10" ? "bg-red-300" : "") +
+          _0x3ebdd8(0x18d) +
+          (_0x492d24[_0x3ebdd8(0x19c)] !== null
+            ? _0x492d24["tenYearReturn"]
+            : "-") +
+          _0x3ebdd8(0x170) +
+          (_0x19bff0 == _0x3ebdd8(0x18a) ? "bg-red-300" : "") +
+          _0x3ebdd8(0x18d) +
+          (_0x492d24[_0x3ebdd8(0x169)] !== null
+            ? _0x492d24["inceptionReturn"]
+            : "-") +
+          _0x3ebdd8(0x16e);
+      }),
+        (_0x2c2d21 +=
+          "</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20"),
+        (outputTblDiv["innerHTML"] = _0x500cc2(0x19d)),
+        (researchBtn[_0x500cc2(0x176)] = _0x500cc2(0x186)),
+        setTimeout(() => {
+          const _0x5dd690 = _0x500cc2;
+          (outputTblDiv["innerHTML"] = _0x2c2d21),
+            (viewBtn[_0x5dd690(0x176)] = _0x5dd690(0x16f)),
+            (researchSelectBtnPanel[_0x5dd690(0x176)] = "");
+        }, 0x3e8);
+    } else {
+      let _0x2b75ea = _0x500cc2(0x168);
+      outputTblDiv[_0x500cc2(0x187)] = _0x2b75ea;
+    }
+  } else console[_0x500cc2(0x184)](_0x6226c1[_0x500cc2(0x195)]);
+};
+function _0x438a(_0x377e3d, _0x10638e) {
+  const _0xd1a1fa = _0xd1a1();
+  return (
+    (_0x438a = function (_0x438a63, _0xf936e6) {
+      _0x438a63 = _0x438a63 - 0x164;
+      let _0x5efeaf = _0xd1a1fa[_0x438a63];
+      return _0x5efeaf;
+    }),
+    _0x438a(_0x377e3d, _0x10638e)
+  );
+}
+let smallCap = document[_0x379b0c(0x171)](_0x379b0c(0x183)),
+  midCap = document["getElementById"](_0x379b0c(0x175)),
+  largeCap = document[_0x379b0c(0x171)]("largeCap"),
+  allBtn = document[_0x379b0c(0x171)](_0x379b0c(0x16c));
+allBtn[_0x379b0c(0x192)](_0x379b0c(0x166), () => {
+  const _0x57ef35 = _0x379b0c;
+  fetchNavData(_0x57ef35(0x16d), _0x57ef35(0x16d), "3");
+}),
+  largeCap[_0x379b0c(0x192)]("click", () => {
+    const _0x4df213 = _0x379b0c;
+    fetchNavData(_0x4df213(0x16d), _0x4df213(0x188), "3");
+  }),
+  midCap[_0x379b0c(0x192)](_0x379b0c(0x166), () => {
+    const _0x159a70 = _0x379b0c;
+    fetchNavData(_0x159a70(0x16d), _0x159a70(0x173), "3");
+  }),
+  smallCap["addEventListener"](_0x379b0c(0x166), () => {
+    const _0x4541bc = _0x379b0c;
+    fetchNavData(_0x4541bc(0x16d), _0x4541bc(0x178), "3");
+  }),
+  window[_0x379b0c(0x192)](_0x379b0c(0x193), () => {
+    const _0x50d2c8 = _0x379b0c;
+    fetchNavData("All", _0x50d2c8(0x16d), "3");
+  });
